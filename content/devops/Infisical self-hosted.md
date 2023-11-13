@@ -48,7 +48,8 @@ Finally, let's update the NGINX config to listen on HTTPS traffic and use our ce
 ```nginx
 listen 443 ssl;
 
-ssl_certificate /etc/nginx/ssl/YOUR_DOMAIN_NAME/fullchain1.pem; ssl_certificate_key /etc/nginx/ssl/YOUR_DOMAIN_NAME/privkey1.pem;
+ssl_certificate /etc/nginx/ssl/YOUR_DOMAIN_NAME/fullchain1.pem;
+ssl_certificate_key /etc/nginx/ssl/YOUR_DOMAIN_NAME/privkey1.pem;
 ```
 
 One last optional thing before starting Infisical, you can update the `.env` file depending on what you want, for example I'm settings these variables:
