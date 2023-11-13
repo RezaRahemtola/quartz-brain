@@ -16,7 +16,7 @@ dev: copy
 	npx quartz build --serve
 
 sync: copy
- 	npx quartz sync
+	npx quartz sync
 
 update:
 	npx quartz update
